@@ -120,7 +120,51 @@ html{
     margin: 7px 0px 0px 0px;  
 }
 
-
+.fast .fast2 .display{
+    
+    display: none;
+}
+.fast .fast2 .display div:nth-child(1){
+    width: 100px;
+    height: 100px;
+    background: url(./image/hangBar.png) no-repeat -262px 0px;
+    margin-top: 47px;
+    margin-left: 180px;
+}
+.fast .fast2 .display div:nth-child(2){
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-size: 14px;
+    color: grey;
+   
+}
+.fast .fast_right ul{
+    position: relative;
+}
+.fast .fast2 .fast_right .fr_1:hover~.display{
+    width: 460px;
+    height: 225px;
+    position: absolute;
+    right: 0px;
+    top: 36px;
+    background: white;
+    z-index: 500;
+    border-radius: 0px 0 10px 10px  / 0px 0 10px 10px;
+    display: block;
+}
+.fast .fast2 .fast_right .display:hover{
+    width: 460px;
+    height: 225px;
+    position: absolute;
+    right: 0px;
+    top: 36px;
+    background: white;
+    z-index: 500;
+    border-radius: 0px 0 10px 10px  / 0px 0 10px 10px;
+    display: block;
+}
 
 
 /* header板块↓ */
